@@ -1,0 +1,87 @@
+<div id="Login">
+    <form class="form-group" id="fLogin">
+
+        <label>Usuario</label>
+        <input name="usuario" type="text" />
+
+        <br />
+
+        <label>Senha</label>
+        <input name="senha" type="password" />
+
+        <br />
+
+        <a class="btn btn-primary" onclick="efetuarLogin()" class="btn btn-dark"> enviar </a>
+    </form>
+</div>
+
+<div id="NewUser">
+    <form class="form-group" id="fNovoUsuario">
+        <div class="row">
+            <section class="col">
+                <label>Nome</label>
+                <input name="Nome" type="text" />
+
+                <br />
+
+                <label>Sobrenome</label>
+                <input name="Sobrenome" type="text" />
+
+                <br />
+
+                <label>Nome usuario</label>
+                <input name="NomeUser" type="text" />
+
+                <br />
+
+                <label>Senha</label>
+                <input name="Senha" type="password" />
+
+                <br />
+
+                <label>Email</label>
+                <input name="Email" type="email" />
+
+            </section>
+            <section class="col">
+                <label>Soudo bruto</label>
+                <input name="SoudoBruto" type="number" />
+
+                <br />
+
+                <label>Soudo Líquido</label>
+                <input name="SoudoLiquido" type="number" />
+
+                <br />
+
+                <label>Data pagamento</label>
+                <input name="DataPagemento" type="date" />
+            </section>
+        </div>
+    </form>
+
+    <a class="btn btn-primary" onclick="novoUsuario()" class="btn btn-dark"> Salvar </a>
+</div>
+
+<div id="NewLivro">
+    <form id="fNewLivro" class="form-group">
+        <label>Titulo</label>
+        <input type="text" name="Titulo" />
+
+        <br/>
+        <label>Autor</label>
+        <input type="text" name="Autor" />
+
+        <br/>
+        <label>Valor</label>
+        <input type="text" name="Valor" />
+
+        <br/>
+        <label>Numero de páginas</label>
+        <input type="text" name="NumPaginas" />
+
+        <br/>
+        <a class="btn btn-primary" onclick="novoLivro()" class="btn btn-dark"> Salvar </a>
+
+    </form>
+</div>
